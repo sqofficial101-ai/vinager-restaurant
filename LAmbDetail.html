@@ -1,0 +1,57 @@
+
+
+
+<div class="recipe-card">
+  <!-- Left Side: Image -->
+  <div class="image-box">
+     <div class="badge">RECIPE OF THE MONTH</div>
+  </div>
+
+  <!-- Right Side: Content -->
+  <div class="recipe-details">
+    <h2 class="gold-text">Signature Grilled Salmon</h2>
+    <p class="description">Chef's special selection for this spring season.</p>
+    
+    <div class="section">
+       <h4>INGREDIENTS</h4>
+       <ul>
+         <li>Fresh Salmon Fillet</li>
+         <li>Lemon & Garlic</li>
+         <li>Rosemary</li>
+       </ul>
+    </div>
+
+    <div class="section">
+       <h4>METHOD</h4>
+       <p>1. Season the fish. 2. Grill for 5 mins. 3. Serve hot.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .recipe-card {
+    display: flex;
+    max-width: 900px;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  .image-box {
+    flex: 1;
+    background: url('https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=1000') center/cover;
+    position: relative;
+    min-height: 400px;
+  }
+  .badge {
+    position: absolute; top: 20px; left: 20px;
+    background: #d4af37; color: white;
+    padding: 10px; font-weight: bold; font-size: 12px;
+  }
+  .recipe-details {
+    flex: 1;
+    padding: 40px;
+  }
+  .gold-text { color: #d4af37; font-family: serif; font-size: 32px; }
+  h4 { border-bottom: 2px solid #eee; padding-bottom: 5px; letter-spacing: 2px; }
+  ul { padding-left: 18px; line-height: 1.8; }
+</style>

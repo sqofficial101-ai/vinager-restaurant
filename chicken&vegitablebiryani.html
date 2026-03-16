@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+<style>
+/* --- Global Container --- */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.text-center {
+  text-align: center;
+}
+
+/* --- Hero Section --- */
+.catering-hero {
+  /* Yahan aap kisi achi si buffet ki picture ka URL daal sakte ho */
+  background: url('catering-bg.jpg') center/cover no-repeat;
+  position: relative;
+  color: #fff;
+}
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay text read karne ke liye */
+  padding: 100px 20px;
+}
+.catering-hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.catering-hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* --- Services Section (3 Cards) --- */
+.catering-services {
+  padding: 80px 0;
+  background-color: #fcf9f5;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-title h2 {
+  font-size: 36px;
+  color: #d32f2f;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+.service-card {
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+  border-bottom: 4px solid transparent;
+}
+
+</style>
+
+
+
+  </head>
+  <body>
+    
+
+  <!--- Alert -->
+
+  <div class="alert col-md-12 col-lg-12 col-xl-12 text-center m-0 p-0 align-content-center " style="min-height: 40px;"
+    role="alert">
+    🔥 New! The Serving Plates – 72 Rotating Menus Available Now ,
+    🍽️ Discover 240,000 Delicacies Nationwide | The Serving Plates
+  </div>
+
+
+
+
+
+  <!---end-->
+
+
+  <!--NavBar -->
+
+  <nav class="navbar sticky-top navbar-expand-lg  m-0 p-0">
+    <div class=" navbar container">
+      <img src="assets/picture/logo1.png" class="m-1" height="80" width="auto" alt="web-site LOGO">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="linkul navbar-nav me-auto mb-2 mb-lg-0 col-md-11 justify-content-evenly">
+          <li class="nav-item">
+            <a class="nav-link ms-3 active text-black fw-bolder" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-black fw-bolder " href="aboutus.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle  active text-black fw-bolder" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item text-black fw-bolder" href="regular.html">Regular</a></li>
+              <li><a class="dropdown-item text-black fw-bolder" href="lunch.html">Lunch</a></li>
+              <li><a class="dropdown-item  text-black fw-bolder" href="snack.html">Snacks</a></li>
+              <li><a class="dropdown-item text-black fw-bolder" href="desrt.html">Desert</a></li>
+              <li><a class="dropdown-item text-black fw-bolder" href="beverages.html">Beverages</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-black fw-bolder" href="Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-black fw-bolder" href="#">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-black fw-bolder" href="#">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-black fw-bolder" href="#">Recipe of the month</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-black fw-bolder" href="contactus.html">Contactus</a>
+          </li>
+      </div>
+              <button class="btns btn-outline-danger gap-5 rounded-5 gap-2">RESERVARTION </button>
+    </div>
+    
+  </nav>
+
+  <!-- End -->
+<section class="catering-hero">
+  <div class="hero-overlay">
+    <div class="container text-center">
+      <h1>Make Your Events Unforgettable</h1>
+      <p>Shadi ho, corporate event, ya private party—humari premium catering service aapke mehmaanon ko degi ek shandar dining experience.</p>
+    </div>
+  </div>
+</section>
+
+<section class="catering-services">
+  <div class="container">
+    <div class="section-title">
+      <h2>Our Catering Services</h2>
+      <p>Vinegar Food Restaurant har event ke liye perfect menu design karta hai.</p>
+    </div>
+    
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="icon">💍</div>
+        <h3>Wedding Receptions</h3>
+        <p>Aap ke sab se khaas din ke liye behtareen aur lazeez khana. Humari team traditional aur modern dishes ka perfect menu design karti hai taake aapki shadi yaadgaar ban jaye.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="icon">🏢</div>
+        <h3>Corporate Events</h3>
+        <p>Office meetings, annual dinners, ya seminars ke liye professional catering. Hum time ki pabandi aur premium presentation ke sath behtareen taste faraham karte hain.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="icon">🎉</div>
+        <h3>Private Parties & Birthdays</h3>
+        <p>Doston aur family ke sath choti ya badi gatherings ke liye customized menus. Aap enjoy karein, khane ki zimmadari humari!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="catering-features">
+  <div class="container">
+    <h2>Why Choose Us?</h2>
+    <div class="features-flex">
+      <div class="feature-item">
+        <span class="feature-icon">⭐</span>
+        <h4>Customized Menus</h4>
+        <p>Aapki pasand aur budget ke mutabiq tailor-made dishes.</p>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">👨‍🍳</span>
+        <h4>Expert Chefs</h4>
+        <p>Saalon ka tajarba rakhne wale chefs jo taste par compromise nahi karte.</p>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🚚</span>
+        <h4>Timely Setup</h4>
+        <p>Event start hone se pehle perfect buffet aur table setup.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="catering-cta">
+  <div class="container text-center">
+    <h2>Ready to Plan Your Menu?</h2>
+    <p>Aaj hi apni event ki details humare sath share karein aur free quote haasil karein.</p>
+    <a href="#" class="btn-primary">Book Your Event Now</a>
+  </div>
+</section>
+
+
+
+
+     <!---Footer-->
+
+    <footer class=" footer bg-dark text-white pt-5 w-100 mt-5">
+      <div class="container-fluid text-center text-md-start">
+        <div class="row text-center text-md-start">
+
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Vinegar Food</h5>
+            <p>Delicious meals delivered to your doorstep. Experience the taste of quality and health.</p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
+            <p><a href="home.html" class="text-white text-decoration-none">Home</a></p>
+            <p><a href="aboutus.html" class="text-white text-decoration-none">About Us</a></p>
+            <p><a href="Gallery.html" class="text-white text-decoration-none">Gallery</a></p>
+            <p><a href="contactus.html" class="text-white text-decoration-none">Contact</a></p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Meals</h5>
+            <p><a href="regular.html" class="text-white text-decoration-none">Regular</a></p>
+            <p><a href="lunch.html" class="text-white text-decoration-none">Lunch</a></p>
+            <p><a href="snack.html" class="text-white text-decoration-none">Snacks</a></p>
+            <p><a href="desrt.html" class="text-white text-decoration-none">Dessert</a></p>
+            <p><a href="beverages.html" class="text-white text-decoration-none">Beverages</a></p>
+          </div>
+
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact Us</h5>
+            <p>123 Food Street, City</p>
+            <p>Phone: +92-300-1234567</p>
+            <p>Email: info@vinegarfood.com</p>
+          </div>
+
+        </div>
+
+        <hr class="mb-4">
+
+        <div class="row align-items-center">
+          <div class="col-md-12 text-center">
+            <p>© 2026 Vinegar Food Restaurant | All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
+    <script src="stylesheet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 400,
+
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

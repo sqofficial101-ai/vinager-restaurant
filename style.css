@@ -1,0 +1,198 @@
+
+
+
+* {
+  font-family:sans-serif;
+}
+html,::scroll-marker {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+.alert {
+  background-color: rgb(254, 150, 15);
+  font-weight: bold;
+  border-radius: 0%;
+}
+
+.navbar {
+
+  color: white;
+
+}
+
+.navbar link {
+  font-size: 1.6rem;
+
+}
+
+.nav-item a {
+  transition: all 0.3s ease;
+  font-family: "pragma", sans-serif;
+}
+
+.nav-link:hover {
+  color: rgb(206, 8, 8) !important;
+
+}
+
+span {
+  color: rgb(190, 36, 36);
+  font-size: 17px;
+  font-size: 19px;
+}
+
+.imgplate {
+  left: -100px;
+  left: -160px;
+}
+.h1{
+  
+}
+
+.h1t {
+  font-size: 90px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(3, 2, 2, 0.2);
+}
+.carcat h1{
+  font-family: 'Playfair Display', serif;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  border: 0;
+  background-color: #683c11;
+}
+
+.btn:hover {
+  color: #683c11;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #683c11;
+  box-shadow: 0 10px 20px rgba(3, 2, 2, 0.2);
+}
+
+.footer a:hover {
+  color: rgb(248, 247, 198) !important;
+}
+
+@media (max-width: 768px) {
+  .h1t {
+    font-size: 45px;
+  }
+}
+
+.addcard {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.addcard:hover {
+
+  transform: translateY(10px);
+  box-shadow: 0 20px 40px rgba(3, 2, 2, 0.2);
+}
+
+.phone {
+  color: black;
+  text-decoration: none;
+}
+
+.row-map {
+  width: 100%;
+}
+
+.btns {
+  color: rgb(255, 255, 255);
+  border: 0;
+  background-color: rgb(196, 29, 0);
+}
+
+.btns:hover {
+  color: white;
+
+  background-color: rgb(205, 66, 6);
+  box-shadow: 0 10px 20px rgba(3, 2, 2, 0.2);
+}
+
+.rating {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: gray;
+  cursor: pointer;
+}
+
+.rating input:checked~label {
+  color: #683c11;
+}
+.heros{
+  background-image: url(assets/images/resturants/image2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.content{
+  background-color: rgba(255, 255, 255, 0.7) ;
+  image-rendering: auto;
+  backdrop-filter: blur(2px);
+  height: 400px;
+  width: 100%;
+}
+ .brown-heading {
+    font-family: 'Playfair Display', serif !important;
+    color: #5c3308 !important;
+    font-weight: 700;
+  }
+  .bannerabout{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('assets/images/gallerypic/home2.jpg') center/cover;
+
+    height: 60vh;
+    display: flex
+    ;
+    align-items: center;
+    justify-content: center;
+  }
